@@ -23,6 +23,7 @@ If the coordinates of the base vertices are easy to define: $(0, 0)$ for $A$ and
 2. Rotate it by 60 degrees using the rotation matrix.
 
 Thus, the coordinates of the vertex $C$ are:
+
 $$\begin{align*}
 C = \vec{AB} \cdot \begin{pmatrix}
 \cos \frac{\pi}{3} & -\sin \frac{\pi}{3} \\
@@ -37,6 +38,7 @@ In order to define a point (its coordinates) inside the triangle, we will use a 
 ![alt text](https://habrastorage.org/r/w1560/getpro/habr/post_images/0f1/f04/d28/0f1f04d28a796d7c86d01e60ee33d3e6.png)
 
 To do this, we will need the following formulas:
+
 $$\begin{align*}
 \text{if} \quad r_1 + r_2 > 1: \\
 P &= ((1 - r_1) \cdot x_{AC} + (1 - r_2) \cdot x_{AB}, (a - r_2) \cdot y_{AC} + (1 - r_2) \cdot y_{AB}); \\
